@@ -1,0 +1,23 @@
+dn: uid=ciuser,ou=People,dc=scm4u,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: ciuser
+sn: ciuser
+userPassword: {SSHA}tOLZYQqwEYoPmQMpy5bTOYfJ35vyU85r
+loginShell: /bin/bash
+homeDirectory: /home/ciuser
+displayName: CI USER
+uidNumber: 1001
+gidNumber: 1001
+
+
+dn: cn=ciuser,ou=Group,dc=scm4u,dc=com
+objectClass: posixGroup
+cn: ciuser
+gidNumber: 1001
+memberUid: ciuser
+
+
+
+
