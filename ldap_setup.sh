@@ -1,5 +1,10 @@
-### LDAP SERVER SETUP ###
-#########################
+#!/bin/bash
+
+###############################################################
+### 														                            ###
+###						LDAP SERVER SETUP 					                  ###
+###															                            ###
+###############################################################
 
 yum -y update
 yum -y install epel-release wget vim net-tools
@@ -107,19 +112,3 @@ systemctl restart httpd
 
 # Login DN: cn=Manager,dc=scm4u,dc=com
 # Password: ldapadmin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
